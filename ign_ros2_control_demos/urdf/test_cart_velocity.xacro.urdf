@@ -112,6 +112,7 @@
       <plugin>ign_ros2_control/IgnitionSystem</plugin>
     </hardware>
     <joint name="slider_to_cart">
+      <command_interface name="effort"/>
       <command_interface name="velocity">
         <param name="min">-15</param>
         <param name="max">15</param>
